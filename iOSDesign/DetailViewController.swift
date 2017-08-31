@@ -9,7 +9,13 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
+  
+  required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+    navigationItem.largeTitleDisplayMode = .never
+  }
+  
+  
   @IBOutlet weak var detailDescriptionLabel: UILabel!
 
 
@@ -24,7 +30,10 @@ class DetailViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    detailDescriptionLabel.translatesAutoresizingMaskIntoConstraints = false
+    detailDescriptionLabel.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive = true
+    detailDescriptionLabel.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor).isActive = true
     configureView()
   }
 

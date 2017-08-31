@@ -13,6 +13,7 @@
 		BA1E0DA81F585EDF0067293C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1E0DA61F585EDF0067293C /* Main.storyboard */; };
 		BA1E0DAA1F585EDF0067293C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1E0DA91F585EDF0067293C /* Assets.xcassets */; };
 		BA1E0DAD1F585EDF0067293C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1E0DAB1F585EDF0067293C /* LaunchScreen.storyboard */; };
+		BA1E0DB51F5863360067293C /* CustomSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1E0DB41F5863360067293C /* CustomSplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BA1E0DA91F585EDF0067293C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA1E0DAC1F585EDF0067293C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA1E0DAE1F585EDF0067293C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1E0DB41F5863360067293C /* CustomSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				BA1E0DA01F585EDF0067293C /* AppDelegate.swift */,
 				BA1E0DA21F585EDF0067293C /* MasterViewController.swift */,
+				BA1E0DB41F5863360067293C /* CustomSplitViewController.swift */,
 				BA1E0DA41F585EDF0067293C /* DetailViewController.swift */,
 				BA1E0DA61F585EDF0067293C /* Main.storyboard */,
 				BA1E0DA91F585EDF0067293C /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1E0DB51F5863360067293C /* CustomSplitViewController.swift in Sources */,
 				BA1E0DA51F585EDF0067293C /* DetailViewController.swift in Sources */,
 				BA1E0DA31F585EDF0067293C /* MasterViewController.swift in Sources */,
 				BA1E0DA11F585EDF0067293C /* AppDelegate.swift in Sources */,
